@@ -8,29 +8,29 @@ A list of videos which I created within the past decade (including C++ tutorials
 
 <hr>
 
-<em>The sound files which are provided as software application components on this web page were dervied from video files and, unlike the sound files, the video files were able to be saved by the WayBack Machine as playable files embeded in those WayBack Machine saved web pages.</em>
+<em>The sound files which are provided as software application components on this web page were dervied from video files and, unlike the sound files, the video files were able to be saved by the WayBack Machine as playable files embeded in those <a style="background: #ff9000;color: #000000" href="https://en.wikipedia.org/wiki/Wayback_Machine" target="_blank" rel="noopener">WayBack Machine</a> saved web pages.</em>
 
 <hr>
 
-sound_file_0:
+sound_file_0: <a style="background: #000000;color: #ff9000" href="https://github.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/blob/main/frogs_croaking_in_castro_valley_california_21_april_2022.mp3" target="_blank" rel="noopener">https://github.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/blob/main/frogs_croaking_in_castro_valley_california_21_april_2022.mp3</a>
 
 video_file_0: <a style="background: #000000;color: #ff9000" href="https://raw.githubusercontent.com/karlinarayberinger/KARBYTES_JOURNAL_2023_PART_32/main/frogs_croaking_in_castro_valley_california_21_april_2022.mp4" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARBYTES_JOURNAL_2023_PART_32/main/frogs_croaking_in_castro_valley_california_21_april_2022.mp4</a>
 
 <hr>
 
-sound_file_1:
+sound_file_1: <a style="background: #000000;color: #ff9000" href="https://github.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/blob/main/karbytes_drums_castro_valley_california_12_december_2022.mp3" target="_blank" rel="noopener">https://github.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/blob/main/karbytes_drums_castro_valley_california_12_december_2022.mp3</a>
 
 video_file_1: <a style="background: #000000;color: #ff9000" href="https://raw.githubusercontent.com/karlinarayberinger/KARBYTES_JOURNAL_2022_PART_16D/main/karbytes_drums_castro_valley_california_12_december_2022.mp4" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARBYTES_JOURNAL_2022_PART_16D/main/karbytes_drums_castro_valley_california_12_december_2022.mp4</a>
 
 <hr>
 
-sound_file_2:
+sound_file_2: <a style="background: #000000;color: #ff9000" href="https://github.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/blob/main/karbytes_guitar_castro_valley_california_12_december_2022.mp3" target="_blank" rel="noopener">https://github.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/blob/main/karbytes_guitar_castro_valley_california_12_december_2022.mp3</a>
 
 video_file_2: <a style="background: #000000;color: #ff9000" href="https://raw.githubusercontent.com/karlinarayberinger/KARBYTES_JOURNAL_2022_PART_16D/main/karbytes_guitar_castro_valley_california_12_december_2022.mp4" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARBYTES_JOURNAL_2022_PART_16D/main/karbytes_guitar_castro_valley_california_12_december_2022.mp4</a>
 
 <hr>
 
-sound_file_3:
+sound_file_3: <a style="background: #000000;color: #ff9000" href="https://github.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/blob/main/karbytes_at_warm_springs_bart_station_17_february_2023.mp3" target="_blank" rel="noopener">https://github.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/blob/main/karbytes_at_warm_springs_bart_station_17_february_2023.mp3</a>
 
 video_file_3: <a style="background: #000000;color: #ff9000" href="https://raw.githubusercontent.com/karlinarayberinger/KARBYTES_JOURNAL_2023_PART_11/main/karbytes_at_warm_springs_bart_station_17_february_2023.mp4" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARBYTES_JOURNAL_2023_PART_11/main/karbytes_at_warm_springs_bart_station_17_february_2023.mp4</a>
 
