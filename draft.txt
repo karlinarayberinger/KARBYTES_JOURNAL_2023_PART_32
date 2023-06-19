@@ -26,7 +26,9 @@ video_file_2: https://raw.githubusercontent.com/karlinarayberinger/KARBYTES_JOUR
 
 <em>The video segments of karbytes playing the guitar on 18_JUNE_2024...</em>
 
-video_segment_0:
+(GitHub said that is was unable to upload files which exceed 25 megabytes. If I recorded the video in the dark such that the only visual data depicted by that video was the color black, I probably would have been able to upload longer video segments to YouTube which are playable on GitHub (and playbale on the WayBack Machine)).
+
+video_segment_0: https://raw.githubusercontent.com/karlinarayberinger/KARBYTES_JOURNAL_2023_PART_32/main/karbytes_guitar_18_june_2023_part_0.mp4
 
 video_segment_1:
 
