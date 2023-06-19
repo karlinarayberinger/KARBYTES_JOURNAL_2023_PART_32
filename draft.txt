@@ -2,7 +2,7 @@ Within the past 24 hours I (apparently) finalized the web pages of my prinary we
 
 * * * 
 
-A list of videos which I created within the past decade (including C++ tutorials and other random videos) and uploaded to GitHub are available at the following journal entry web page:
+A list of videos of videos which I created within the past decade (including C++ tutorials and other random videos) and uploaded to GitHub are available at the following journal entry web page:
 
 <a style="background: #000000;color: #ff9000" href="https://karbytesforlifeblog.wordpress.com/karbytes_journal_2023_entry_322/" target="_blank" rel="noopener">https://karbytesforlifeblog.wordpress.com/karbytes_journal_2023_entry_322/</a>
 
