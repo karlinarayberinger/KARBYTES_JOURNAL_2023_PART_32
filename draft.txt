@@ -1,1 +1,23 @@
-Within the past 24 hours I (apparently) finalized the web pages of my prinary website named X and Y, uploaded a video of myself playing the guitar in my room to Instagram and to GitHub (and in order for that video file to be playable on GitHub, I had to split that file into two separate files because the original file was too big and the compressed version of the original file was not playable due to "unsupported MIME type"), and uploaded the following 3 MP3 files to the X GitHub repository. (I provided hyperlinks to each of the the corresponding MP4 files on this page because those MP4 files are saved as playable web page embedded files on the WayBack Machine unlike the MP3 files).</span>Within the past 24 hours I (apparently) finalized the web pages of my prinary website named X and Y, uploaded a video of myself playing the guitar in my room to Instagram and to GitHub (and in order for that video file to be playable on GitHub, I had to split that file into two separate files because the original file was too big and the compressed version of the original file was not playable due to "unsupported MIME type"), and uploaded the following 3 MP3 files to the X GitHub repository. (I provided hyperlinks to each of the the corresponding MP4 files on this page because those MP4 files are saved as playable web page embedded files on the WayBack Machine unlike the MP3 files).</span>
+Within the past 24 hours I (apparently) finalized the web pages of my prinary website named X and Y, uploaded a video of myself playing the guitar in my room to Instagram and to GitHub (and in order for that video file to be playable on GitHub, I had to split that file into three separate files because the original file was too big and the compressed version of the original file was not playable due to "unsupported MIME type"), and uploaded the following 3 MP3 files to the X GitHub repository. (I provided hyperlinks to each of the the corresponding MP4 files on this page because those MP4 files are saved as playable web page embedded files on the WayBack Machine unlike the MP3 files. Those MP3 files will be featured in a cleaned-up version of the SOUND_TRACK_LOOPER JavaScript web application tutorial web page of my primary website).</span>
+
+<hr>
+
+<em>The sound files which are provided as software application components on this web page were dervied from video files and, unlike the sound files, the video files were able to be saved by the WayBack Machine as playable files embeded in those WayBack Machine saved web pages.</em>
+
+<hr>
+
+sound_file_0:
+
+video_file_0: https://raw.githubusercontent.com/karlinarayberinger/KARBYTES_JOURNAL_2023_PART_32/main/frogs_croaking_in_castro_valley_california_21_april_2022.mp4
+
+<hr>
+
+sound_file_1:
+
+video_file_1: https://raw.githubusercontent.com/karlinarayberinger/KARBYTES_JOURNAL_2022_PART_16D/main/karbytes_drums_castro_valley_california_12_december_2022.mp4
+
+<hr>
+
+sound_file_2:
+
+video_file_2:
