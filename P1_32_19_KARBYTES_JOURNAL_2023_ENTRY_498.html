@@ -1,45 +1,103 @@
-<hr />
-<p><strong>KARBYTES_JOURNAL_2023_ENTRY_499</strong></p>
-<hr />
-<p>Today I found a well-written and concise piece of open source C++ <a style="background: #ff9000;color: #000000" href="https://gist.github.com/LingDong-/7e4c4cae5cbbc44400a05fba65f06f23" target="_blank" rel="noopener">code</a> which some Chinese guy wrote for computing natural logs which I copy-pasted into my C++ program for reverse engineering the math.h pow() function (and I plan to showcase the final result of that program in a code web page on my primary website named EXPONENTIATION). Today I swapped the order in which web pages are indexed on the home page of my primary website such that the prose web page named <a style="background: #000000;color: #ff9000" href="https://karlinaobject.wordpress.com/nature/" target="_blank" rel="noopener">NATURE</a> is immediately before that code web page named EXPONENTIATION. I think I finalized that prose web page named NATURE today and I am quite pleased with it.</p>
-<p>The previous journal entry is broaches subject matter I do not intend to broach again in future blog posts. In other words, I am moving on from the issues discussed in the previous journal entry so that I can continue to make progress towards finalizing each of the web pages which are currently indexed on the home page of my primary website (though I might decide to later add or remove web pages which are currently listed on the home page of my primary website). I intend for such a renovation to be completed no later than 01_AUGUST_2023.</p>
 <hr>
-<p><em>To view hidden text inside the preformatted text box below, scroll horizontally.</em></p>
-<pre>
-//--------------------------------------------------------------------------------
-// The following function and associated comments were not written by karbytes. 
-//--------------------------------------------------------------------------------
-
-// ln.c
-//
-// simple, fast, accurate natural log approximation
-// when without &lt; math.h &gt;
-
-// featuring * floating point bit level hacking,
-//           * x=m*2^p =&gt; ln(x)=ln(m)+ln(2)p,
-//           * Remez algorithm
-
-// by Lingdong Huang, 2020. Public domain.
-
-// ============================================
-
-float ln(float x) {
-  unsigned int bx = * (unsigned int *) (&amp;x);
-  unsigned int ex = bx &gt;&gt; 23;
-  signed int t = (signed int)ex-(signed int)127;
-  unsigned int s = (t &lt; 0) ? (-t) : t;
-  bx = 1065353216 | (bx &amp; 8388607);
-  x = * (float *) (&amp;bx);
-  return -1.49278+(2.11263+(-0.729104+0.10969*x)*x)*x+0.6931471806*t;
-}
-// done.
-
-//--------------------------------------------------------------------------------
-// End of code which was not written by karbytes. 
-//--------------------------------------------------------------------------------
-</pre>
+<p><strong>KARLINA_OBJECT</strong></p>
 <hr>
-<p><em>Today karbytes shared a link to <a style="background: #000000;color: #ff9000" href="https://karbytesforlifeblog.wordpress.com/karbytes_journal_2023_entry_499/" target="_blank" rel="noopener">this journal entry web page</a> on its <a style="background: #ff9000;color: #000000" href="https://twitter.com/karbytes" target="_blank" rel="noopener">Twitter</a> page, <a style="background: #ff9000;color: #000000" href="https://www.minds.com/karbytes/" target="_blank" rel="noopener">Minds</a> page, <a style="background: #ff9000;color: #000000" href="https://www.patreon.com/karbytes" target="_blank" rel="noopener">Patreon</a> page, and <a style="background: #ff9000;color: #000000" href="https://www.linkedin.com/in/kar-beringer-0a6684187/" target="_blank" rel="noopener">LinkedIn</a> page.</em></p>
-<hr />
+<p><strong><em>Creativity And The Cosmos</em></strong></p>
+<hr>
+<p><strong style="background:#ffff00">KARLINA OBJECT dot WordPress dot Com</strong></p>
+<hr>
+
+
+<figure class="wp-block-image size-full"><img data-attachment-id="21079" data-permalink="https://karlinaobject.wordpress.com/index/romanesco_broccoli_19_march_2021/" data-orig-file="https://karlinaobject.files.wordpress.com/2023/06/romanesco_broccoli_19_march_2021.jpeg" data-orig-size="1024,768" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="romanesco_broccoli_19_march_2021" data-image-description="" data-image-caption="" data-medium-file="https://karlinaobject.files.wordpress.com/2023/06/romanesco_broccoli_19_march_2021.jpeg?w=300" data-large-file="https://karlinaobject.files.wordpress.com/2023/06/romanesco_broccoli_19_march_2021.jpeg?w=1000" src="https://karlinaobject.files.wordpress.com/2023/06/romanesco_broccoli_19_march_2021.jpeg" alt="" class="wp-image-21079" /></figure>
+
+
+<hr>
+<p>image_file: <a style="background:#ff9000;color:#000000" href="https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/main/romanesco_broccoli_19_march_2021.jpeg" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/main/romanesco_broccoli_19_march_2021.jpeg</a></p>
+<hr>
+<p><strong>INTRODUCTION</strong></p>
+<hr>
+<p><span style="background:#ffff00">This website is an expression of a person&#8217;s interest and expertise in topics such as metaphysics, physics, computer science, mathematics, logic, and digital media (and the name of that person is <a style="background: #000000;color: #ff9000" href="https://karbytesforlifeblog.wordpress.com/" target="_blank" rel="noopener">karbytes</a>).</span></p>
+<hr>
+
+
+<figure class="wp-block-image size-full"><img data-attachment-id="21081" data-permalink="https://karlinaobject.wordpress.com/index/karlina_object_wordpress_logo_orange_box_drawing_2020-3/" data-orig-file="https://karlinaobject.files.wordpress.com/2023/06/karlina_object_wordpress_logo_orange_box_drawing_2020.png" data-orig-size="716,570" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="karlina_object_wordpress_logo_orange_box_drawing_2020" data-image-description="" data-image-caption="" data-medium-file="https://karlinaobject.files.wordpress.com/2023/06/karlina_object_wordpress_logo_orange_box_drawing_2020.png?w=300" data-large-file="https://karlinaobject.files.wordpress.com/2023/06/karlina_object_wordpress_logo_orange_box_drawing_2020.png?w=716" src="https://karlinaobject.files.wordpress.com/2023/06/karlina_object_wordpress_logo_orange_box_drawing_2020.png" alt="" class="wp-image-21081" /></figure>
+
+
+<hr>
+<p>image_link: <a style="background:#ff9000;color:#000000" href="https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/main/karlina_object_wordpress_logo_orange_box_drawing_2020.png" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/main/karlina_object_wordpress_logo_orange_box_drawing_2020.png</a></p>
+<hr>
+<p><strong>WEBSITE_DIRECTORY</strong></p>
+<hr>
+<p>PAGE_28: <a style="background:#000000;color:#ff9000" href="https://karlinaobject.wordpress.com/knowledge" target="_blank" rel="noopener">KNOWLEDGE</a></p>
+<p>PAGE_27: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/triangle_graphing" target="_blank" rel="noopener">TRIANGLE_GRAPHING</a></p>
+<p>PAGE_26: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/word_counter" target="_blank" rel="noopener">WORD_COUNTER</a></p>
+<p>PAGE_25: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/probability" target="_blank" rel="noopener">PROBABILITY</a></p>
+<p>PAGE_24: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/sound_track_loop_counter" target="_blank" rel="noopener">SOUND_TRACK_LOOP_COUNTER</a></p>
+<p>PAGE_23: <a style="background:#000000;color:#ff9000" href="https://karlinaobject.wordpress.com/agency" target="_blank" rel="noopener">AGENCY</a></p>
+<p>PAGE_22: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/base_converter" target="_blank" rel="noopener">BASE_CONVERTER</a></p>
+<p>PAGE_21: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/pi_approximation" target="_blank" rel="noopener">PI_APPROXIMATION</a></p>
+<p>PAGE_20: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/count_down_timer" target="_blank" rel="noopener">COUNT_DOWN_TIMER</a></p>
+<p>PAGE_19: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/bits_and_bytes" target="_blank" rel="noopener">BITS_AND_BYTES</a></p>
+<p>PAGE_18: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/hexidecimal_color_codes" target="_blank" rel="noopener">HEXIDECIMAL_COLOR_CODES</a></p>
+<p>PAGE_17: <a style="background:#000000;color:#ff9000" href="https://karlinaobject.wordpress.com/multiverse" target="_blank" rel="noopener">MULTIVERSE</a></p>
+<p>PAGE_16: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/hash_table" target="_blank" rel="noopener">HASH_TABLE</a></p>
+<p>PAGE_15: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/linked_list" target="_blank" rel="noopener">LINKED_LIST</a></p>
+<p>PAGE_14: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/polygon" target="_blank" rel="noopener">POLYGON</a></p>
+<p>PAGE_13: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/triangle" target="_blank" rel="noopener">TRIANGLE</a></p>
+<p>PAGE_12: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/point" target="_blank" rel="noopener">POINT</a></p>
+<p>PAGE_11: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/pointers_and_arrays" target="_blank" rel="noopener">POINTERS_AND_ARRAYS</a></p>
+<p>PAGE_10: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/exponentiation" target="_blank" rel="noopener">EXPONENTIATION</a></p>
+<p>PAGE_9: <a style="background:#000000;color:#ff9000" href="https://karlinaobject.wordpress.com/nature" target="_blank" rel="noopener">NATURE</a></p>
+<p>PAGE_8: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/eulers_number_approximation" target="_blank" rel="noopener">EULERS_NUMBER_APPROXIMATION</a></p>
+<p>PAGE_7: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/cube_root_approximation" target="_blank" rel="noopener">CUBE_ROOT_APPROXIMATION</a></p>
+<p>PAGE_6: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/square_root_approximation" target="_blank" rel="noopener">SQUARE_ROOT_APPROXIMATION</a></p>
+<p>PAGE_5: <a style="background:#000000;color:#ff9000" href="https://karlinaobject.wordpress.com/numbers" target="_blank" rel="noopener">NUMBERS</a></p>
+<p>PAGE_4: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/golden_ratio_approximation" target="_blank" rel="noopener">GOLDEN_RATIO_APPROXIMATION</a></p>
+<p>PAGE_3: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/fibonacci_numbers" target="_blank" rel="noopener">FIBONACCI_NUMBERS</a></p>
+<p>PAGE_2: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/factorial" target="_blank" rel="noopener">FACTORIAL</a></p>
+<p>PAGE_1: <a style="background:#000000;color:#ff9000" href="https://karlinaobject.wordpress.com/public_domain" target="_blank" rel="noopener">PUBLIC_DOMAIN</a></p>
+<p>PAGE_0: <a style="background:#000000;color:#00ff00" href="https://karlinaobject.wordpress.com/" target="_blank" rel="noopener">START_PAGE</a></p>
+<hr>
+
+
+<figure class="wp-block-image size-full"><img data-attachment-id="21083" data-permalink="https://karlinaobject.wordpress.com/index/dimensions_02_october_2019-3/" data-orig-file="https://karlinaobject.files.wordpress.com/2023/06/dimensions_02_october_2019.jpg" data-orig-size="1100,1644" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;2.4&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;5041C&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;1570041580&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;3.5&quot;,&quot;iso&quot;:&quot;150&quot;,&quot;shutter_speed&quot;:&quot;0.03&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;1&quot;,&quot;latitude&quot;:&quot;37.721248611111&quot;,&quot;longitude&quot;:&quot;-122.08374786111&quot;}" data-image-title="dimensions_02_october_2019" data-image-description="" data-image-caption="" data-medium-file="https://karlinaobject.files.wordpress.com/2023/06/dimensions_02_october_2019.jpg?w=201" data-large-file="https://karlinaobject.files.wordpress.com/2023/06/dimensions_02_october_2019.jpg?w=685" src="https://karlinaobject.files.wordpress.com/2023/06/dimensions_02_october_2019.jpg" alt="" class="wp-image-21083" /></figure>
+
+
+<hr>
+<p>image_file: <a style="background: #ff9000;color: #000000" href="https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/main/dimensions_02_october_2019.jpg" target="_blank" rel="noopener">https://raw.githubusercontent.com/karlinarayberinger/KARLINA_OBJECT_summer_2023_starter_pack/main/dimensions_02_october_2019.jpg</a></p>
+<hr>
+<p><strong>DONATIONS_PORTAL</strong></p>
+<hr>
+<p>Visitors to this website are invited to donate money to the author of this website using <a style="background: #ff9000;color: #000000" href="https://www.paypal.com/donate/?hosted_button_id=6CZQQJLS74TN4" target="_blank" rel="noopener">this PayPal donation portal link</a>. The suggested donation amount is $20.</p>
+<p>Patreon members may subscribe to contribute either $1 per month (<strong>bit</strong> membership tier) or else $8 per month (<strong>byte</strong> membership tier) or else $64 per month (<strong>word</strong> membership tier) to the <a style="background: #ff9000;color: #000000" href="https://www.patreon.com/user?u=30492398" target="_blank" rel="noopener">Patreon page</a> managed by karbytes.</p>
+<p>Donations are used to support the ongoing development of Karlina Object dot WordPress dot Com and other websites managed by karbytes.</p>
+<hr>
+<p><strong>AUTHOR_DETAILS</strong></p>
+<hr>
+<p>Name: karbytes (self-assigned identifier), Karlina Ray Beringer (legal identifier)</p>
+<p>Species: HUMAN (originally), CYBORG (currently)</p>
+<p>Birth_Date: 13_JANUARY_1990</p>
+<p>Birth_Location: California, United States of America, Planet Earth</p>
+<p>Profession: Software Developer, Consciousness Researcher</p>
+<hr>
+<p><strong>AUTHOR_NETWORKING</strong></p>
+<hr>
+<p>Email_0: <span style="background: #ff9000;color: #000000"><strong>karlina.ray.beringer@protonmail.com</strong></span></p>
+<p>Email_1: <span style="background: #ff9000;color: #000000"><strong>starduststructures@protonmail.com</strong></span></p>
+<p>Email_2: <span style="background: #ff9000;color: #000000"><strong>karlinaberinger99@gmail.com</strong></span></p>
+<p>Email_3: <span style="background: #ff9000;color: #000000"><strong>karbytesforlife@protonmail.com</strong></span></p>
+<p>KARBYTES: <a style="background: #000000;color: #ff9000" href="https://karbytesforlifeblog.wordpress.com/" target="_blank" rel="noopener">https://karbytesforlifeblog.wordpress.com/</a></p>
+<p>GitHub: <a style="background: #00ff00;color: #000000" href="https://github.com/karlinarayberinger/" target="_blank" rel="noopener">https://github.com/karlinarayberinger/</a></p>
+<p>LinkedIn: <a style="background: #ff9000;color: #000000" href="https://www.linkedin.com/in/kar-beringer-0a6684187/" target="_blank" rel="noopener">https://www.linkedin.com/in/kar-beringer-0a6684187/</a></p>
+<p>Patreon: <a style="background: #ff9000;color: #000000" href="https://www.patreon.com/karbytes" target="_blank" rel="noopener">https://www.patreon.com/karbytes</a></p>
+<p>Instagram: <a style="background: #ff9000;color: #000000" href="https://www.instagram.com/karbytes_anew/" target="_blank" rel="noopener">https://www.instagram.com/karbytes_anew/</a></p>
+<p>Twitter: <a style="background: #ff9000;color: #000000" href="https://twitter.com/karbytes" target="_blank" rel="noopener">https://twitter.com/karbytes</a></p>
+<p>Minds: <a style="background: #ff9000;color: #000000" href="https://www.minds.com/karbytes/" target="_blank" rel="noopener">https://www.minds.com/karbytes/</a></p>
+<hr>
+<p><strong>WEBSITE_CHRONOLOGY</strong></p>
+<hr>
+<p>Backed up versions of each one of the web pages in this website are available to view at <a style="background: #ff9000;color: #000000" href="https://archive.org/" target="_blank" rel="noopener">Archive dot Org</a> (and were saved to Archive dot Org using the WayBack Machine).</p>
+<hr>
 <p>This web page was last updated on 23_JUNE_2023. The content displayed on this web page is licensed as <a style="background: #000000;color: #ff9000" href="https://karlinaobject.wordpress.com/public_domain/" target="_blank" rel="noopener">PUBLIC_DOMAIN</a> intellectual property.</p>
-<hr />
+<hr>
+<p>This website was established on 03_APRIL_2020.</p>
+<hr>	
