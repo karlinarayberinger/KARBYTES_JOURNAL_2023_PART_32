@@ -1,12 +1,45 @@
 <hr />
-<p><strong>KARBYTES_JOURNAL_2023_ENTRY_498</strong></p>
+<p><strong>KARBYTES_JOURNAL_2023_ENTRY_499</strong></p>
 <hr />
-<p>The police and civilians are so threatened by my freedom of thought that they insist on forcibly interjecting propagandic messages into my brain every second of every day as a means to limit what I think about and to decide for me what my attention should be focused on.</p>
-<p>The police and civilians act as though I should be grateful for such <a style="background: #000000;color: #ff9000" href="https://karbytesforlifeblog.wordpress.com/karbytes_journal_2022_entry_138/" target="_blank" rel="noopener">interference and control</a> because they seem to want me to believe I would be lost without it.</p>
-<p>I am disgusted and disturbed by how almost no one seems even the least bit concerned about what I am talking about in this blog post (and I have blogged about this subject many times in the past). The only responses I&#8217;ve ever gotten from other people when I expressed concerns pertaining to this subject online or in person was insinuations that I must be hallucinating or lying and that what I describe is not caused by anything outside my brain nor deliberately caused by other people.</p>
-<p>I get the sense that many people are aware that I have a <a style="background: #000000;color: #ff9000" href="https://karbytesforlifeblog.wordpress.com/" target="_blank" rel="noopener">blog</a> but refuse to acknowledge that I do. What I mean to imply is that basically everyone who knows me and who interacts with me refuses to acknowledge anything I blog about even if I send them blog posts via private messaging. I wonder if people are deliberately trying to discourage me from blogging in the hopes that I will stop blogging. Perhaps people are waging a campaign against me to use ostracization and gaslighting as a means to discourage me from &#8220;showing off&#8221; online or even in person. Perhaps people want me to be less grandiose and more humble. Perhaps people want to punish me and to cause me suffering for past transgressions those people don&#8217;t want to forgive me for. Perhaps people want me to shut up and get some socially acceptable job which keeps me preoccupied and tired such that I am no longer what those people perceive to be a public nuisance; someone they do not want to have to keep acknowledging has a blog that keeps getting bigger while those people have yet to formulate some kind of response to what I write. It&#8217;s like they&#8217;re implicitly saying to me, &#8220;Slow down! Give us all the time we need to catch up and get around to reading what you have to say and coming up with a response which is supposed to be the last words of our interaction. In fact, let us put you in some kind of restraint which prevents you from getting too far ahead of where we want you to be in terms of formulating your ideas and expressing them in writing online. After all, most of us don&#8217;t have that kind of time off from constantly attending to our civic duties to be as well articulated as you are. We don&#8217;t think you should be allowed to be that much more well articulated than us. That&#8217;d why we don&#8217;t want to acknowledge your blog. That&#8217;s why we refuse to give you feedback. That&#8217;s why we try to change the subject when you try to talk about things we aren&#8217;t ready to address. That&#8217;s why we steal and vandalize your equipment. That&#8217;s why we block and censor your telecommunications. That&#8217;s why we try to erode your sanity. It&#8217;s too keep you from getting too far away from where the rest of us are intellectually and otherwise.&#8221;</p>
+<p>Today I found a well-written and concise piece of open source C++ <a style="background: #ff9000;color: #000000" href="https://gist.github.com/LingDong-/7e4c4cae5cbbc44400a05fba65f06f23" target="_blank" rel="noopener">code</a> which some Chinese guy wrote for computing natural logs which I copy-pasted into my C++ program for reverse engineering the math.h pow() function (and I plan to showcase the final result of that program in a code web page on my primary website named EXPONENTIATION). Today I swapped the order in which web pages are indexed on the home page of my primary website such that the prose web page named <a style="background: #000000;color: #ff9000" href="https://karlinaobject.wordpress.com/nature/" target="_blank" rel="noopener">NATURE</a> is immediately before that code web page named EXPONENTIATION. I think I finalized that prose web page named NATURE today and I am quite pleased with it.</p>
+<p>The previous journal entry is broaches subject matter I do not intend to broach again in future blog posts. In other words, I am moving on from the issues discussed in the previous journal entry so that I can continue to make progress towards finalizing each of the web pages which are currently indexed on the home page of my primary website (though I might decide to later add or remove web pages which are currently listed on the home page of my primary website). I intend for such a renovation to be completed no later than 01_AUGUST_2023.</p>
 <hr>
-<p><em>Today karbytes shared a link to <a style="background: #000000;color: #ff9000" href="https://karbytesforlifeblog.wordpress.com/karbytes_journal_2023_entry_498/" target="_blank" rel="noopener">this journal entry web page</a> on its <a style="background: #ff9000;color: #000000" href="https://twitter.com/karbytes" target="_blank" rel="noopener">Twitter</a> page, <a style="background: #ff9000;color: #000000" href="https://www.minds.com/karbytes/" target="_blank" rel="noopener">Minds</a> page, <a style="background: #ff9000;color: #000000" href="https://www.patreon.com/karbytes" target="_blank" rel="noopener">Patreon</a> page, and <a style="background: #ff9000;color: #000000" href="https://www.linkedin.com/in/kar-beringer-0a6684187/" target="_blank" rel="noopener">LinkedIn</a> page.</em></p>
+<p><em>To view hidden text inside the preformatted text box below, scroll horizontally.</em></p>
+<pre>
+//--------------------------------------------------------------------------------
+// The following function and associated comments were not written by karbytes. 
+//--------------------------------------------------------------------------------
+
+// ln.c
+//
+// simple, fast, accurate natural log approximation
+// when without 
+
+// featuring * floating point bit level hacking,
+//           * x=m*2^p =&gt; ln(x)=ln(m)+ln(2)p,
+//           * Remez algorithm
+
+// by Lingdong Huang, 2020. Public domain.
+
+// ============================================
+
+float ln(float x) {
+  unsigned int bx = * (unsigned int *) (&amp;x);
+  unsigned int ex = bx &gt;&gt; 23;
+  signed int t = (signed int)ex-(signed int)127;
+  unsigned int s = (t &lt; 0) ? (-t) : t;
+  bx = 1065353216 | (bx &amp; 8388607);
+  x = * (float *) (&amp;bx);
+  return -1.49278+(2.11263+(-0.729104+0.10969*x)*x)*x+0.6931471806*t;
+}
+// done.
+
+//--------------------------------------------------------------------------------
+// End of code which was not written by karbytes. 
+//--------------------------------------------------------------------------------
+</pre>
+<hr>
+<p><em>Today karbytes shared a link to <a style="background: #000000;color: #ff9000" href="https://karbytesforlifeblog.wordpress.com/karbytes_journal_2023_entry_499/" target="_blank" rel="noopener">this journal entry web page</a> on its <a style="background: #ff9000;color: #000000" href="https://twitter.com/karbytes" target="_blank" rel="noopener">Twitter</a> page, <a style="background: #ff9000;color: #000000" href="https://www.minds.com/karbytes/" target="_blank" rel="noopener">Minds</a> page, <a style="background: #ff9000;color: #000000" href="https://www.patreon.com/karbytes" target="_blank" rel="noopener">Patreon</a> page, and <a style="background: #ff9000;color: #000000" href="https://www.linkedin.com/in/kar-beringer-0a6684187/" target="_blank" rel="noopener">LinkedIn</a> page.</em></p>
 <hr />
-<p>This web page was last updated on 22_JUNE_2023. The content displayed on this web page is licensed as <a style="background: #000000;color: #ff9000" href="https://karlinaobject.wordpress.com/public_domain/" target="_blank" rel="noopener">PUBLIC_DOMAIN</a> intellectual property.</p>
+<p>This web page was last updated on 23_JUNE_2023. The content displayed on this web page is licensed as <a style="background: #000000;color: #ff9000" href="https://karlinaobject.wordpress.com/public_domain/" target="_blank" rel="noopener">PUBLIC_DOMAIN</a> intellectual property.</p>
 <hr />
