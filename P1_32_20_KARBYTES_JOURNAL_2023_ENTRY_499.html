@@ -1,0 +1,45 @@
+<hr />
+<p><strong>KARBYTES_JOURNAL_2023_ENTRY_499</strong></p>
+<hr />
+<p>Today I found a well-written and concise piece of open source C++ <a style="background: #ff9000;color: #000000" href="https://gist.github.com/LingDong-/7e4c4cae5cbbc44400a05fba65f06f23" target="_blank" rel="noopener">code</a> which some Chinese guy wrote for computing natural logs which I copy-pasted into my C++ program for reverse engineering the math.h pow() function (and I plan to showcase the final result of that program in a code web page on my primary website named EXPONENTIATION). Today I swapped the order in which web pages are indexed on the home page of my primary website such that the prose web page named <a style="background: #000000;color: #ff9000" href="https://karlinaobject.wordpress.com/nature/" target="_blank" rel="noopener">NATURE</a> is immediately before that code web page named EXPONENTIATION. I think I finalized that prose web page named NATURE today and I am quite pleased with it.</p>
+<p>The previous journal entry is broaches subject matter I do not intend to broach again in future blog posts. In other words, I am moving on from the issues discussed in the previous journal entry so that I can continue to make progress towards finalizing each of the web pages which are currently indexed on the home page of my primary website (though I might decide to later add or remove web pages which are currently listed on the home page of my primary website). I intend for such a renovation to be completed no later than 01_AUGUST_2023.</p>
+<hr>
+<p><em>To view hidden text inside the preformatted text box below, scroll horizontally.</em></p>
+<pre>
+//--------------------------------------------------------------------------------
+// The following function and associated comments were not written by karbytes. 
+//--------------------------------------------------------------------------------
+
+// ln.c
+//
+// simple, fast, accurate natural log approximation
+// when without &lt; math.h &gt;
+
+// featuring * floating point bit level hacking,
+//           * x=m*2^p =&gt; ln(x)=ln(m)+ln(2)p,
+//           * Remez algorithm
+
+// by Lingdong Huang, 2020. Public domain.
+
+// ============================================
+
+float ln(float x) {
+  unsigned int bx = * (unsigned int *) (&amp;x);
+  unsigned int ex = bx &gt;&gt; 23;
+  signed int t = (signed int)ex-(signed int)127;
+  unsigned int s = (t &lt; 0) ? (-t) : t;
+  bx = 1065353216 | (bx &amp; 8388607);
+  x = * (float *) (&amp;bx);
+  return -1.49278+(2.11263+(-0.729104+0.10969*x)*x)*x+0.6931471806*t;
+}
+// done.
+
+//--------------------------------------------------------------------------------
+// End of code which was not written by karbytes. 
+//--------------------------------------------------------------------------------
+</pre>
+<hr>
+<p><em>Today karbytes shared a link to <a style="background: #000000;color: #ff9000" href="https://karbytesforlifeblog.wordpress.com/karbytes_journal_2023_entry_499/" target="_blank" rel="noopener">this journal entry web page</a> on its <a style="background: #ff9000;color: #000000" href="https://twitter.com/karbytes" target="_blank" rel="noopener">Twitter</a> page, <a style="background: #ff9000;color: #000000" href="https://www.minds.com/karbytes/" target="_blank" rel="noopener">Minds</a> page, <a style="background: #ff9000;color: #000000" href="https://www.patreon.com/karbytes" target="_blank" rel="noopener">Patreon</a> page, and <a style="background: #ff9000;color: #000000" href="https://www.linkedin.com/in/kar-beringer-0a6684187/" target="_blank" rel="noopener">LinkedIn</a> page.</em></p>
+<hr />
+<p>This web page was last updated on 23_JUNE_2023. The content displayed on this web page is licensed as <a style="background: #000000;color: #ff9000" href="https://karlinaobject.wordpress.com/public_domain/" target="_blank" rel="noopener">PUBLIC_DOMAIN</a> intellectual property.</p>
+<hr />
