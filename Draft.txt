@@ -1,0 +1,35 @@
+<em>As the death rate approaches zero, so should the birth rate.</em>
+
+I almost made a tweet of the above statement until I had some more disturbing things to follow that thought up with.
+
+<em>If you don't move out of Castro Valley by the time you reach adulthood, you will never be allowed to leave Castro Valley nor advance past where you were at age 18.</em>
+
+I went to Dublin tonight via BART and didn't even bother getting off the train. Instead, I went straight back to Castro Valley (and the excursion fee was higher than actually going on a round trip). 
+
+There was a reason why I went to Dublin and stayed there a lot over the past three years. It was the only way I could get a chance to grow up and have a life of my own. Now that I am back in Castro Valley, I see how true the second italicized note would be if I did not have a phone nor the means to replace a phone. 
+
+This is a stupid note. I wrote it to show how stupid I have been. If only I had stayed in school until I graduated I would have had a decent job and a much easier and more comfortable life than what I have now. I work very hard just to maintain what little I have. I am basically caught in the poverty cycle and see how ridiculously hard it is just to make barely enough money to preserve just the essentials of my teenage years: food, clothes, computers, and bicycle.
+
+I would not be so dismayed if my criminal record was clean (and my criminal record kept me from getting jobs with Whole Foods and Amazon). My crimimal record shows that I have committed petty theft in 2021. That has prevented me from getting jobs even in 2023. The petty theft was stealing food from grocery stores when I did not have enough money to pay for what I felt I needed to thrive. I felt that I was being starved into underachievement and lethargy in order to be conditioned to be a "basic bitch". 
+
+I should have forseen how difficult my life would be before I turned 18. If I knew how hard it would be, I probably would have just gotten a full time job instead of going to college. Never mind. I would not have skipped class during my first semester in college at University of California Merced. I would not have dropped out. That was a very good school. I was not even on academic probation. I was just required to see a school counselor. I stupidly decided to drop out to live at home and attend Chabot College. I apparently lacked the ambition and foresight I now have over a decade later and which now seems a lot less nurtured due to my advanced age and damaged reputation.
+
+I feel like I felon living in prison who is writing a book to motivate younger people not to throw away their opportunities like I did. I feel that what I said is very contrived and exagerated.
+
+Honestly, I think I am winning the larger game of human existence by taking advantage of my unique and very priveleged circumstances and channeling all of it into the making of my websites (which I hope will last at least as long as I do). This labyrinth of interconnected web pages is my finest legacy, most valued posession, and first and last offering to humanity (and burden for the Internet (or the keepers of the Internet) to preserve). Eventually, I expect and hope that my websites will address the more general concern of keeping the World Wide Web free, accessible, and promoting of free speech for all. <span style="background:#ffff00">If I stand for anything, it is free speech.</span>
+
+I'm sorry. This whole thing is very cheesy. Carry on!
+
+<hr>
+
+Now that I put my inner childs to sleep, here is some news my inner adults might be more interested in...
+
+Firstly, I found out that Peets cafe might be the only place in Castro Valley with 24 hour public Wi-Fi access. (I used it to commit some code files).
+
+<strike>(Speaking of code files, I decided that, rather than only enumerate GitHub repositories which expand on the content showcased in the finalized version of Karlina Object dot WordPress dot Com on the web page of this website named KARBYTES_CODE_CONTINUES, I should showcase each specific file which is added to those repositories as a clickable link going directly to the respective raw file. To keep KARBYTES_CODE_CONTINUES from displaying too many links, I decided to make each GitHUb repository link a link to a new web page of this website instead such that the respective new web page is a catelog of every file which is hosted in the respective GitHub repository).</strike>
+
+(The striked out comment above is addressing the fact that GitHub (which I do not control) might change its raw file link format. Never mind. If I seriously want to preserve my code, I need to copy the code-paste the code into preformatted text boxes like I do on each of the code web pages of Karlina Object dot WordPress dot Com).
+
+<span style="background:#ffff00">(Maybe Karlina Object dot WordPress dot Com will continue to host code pages. Maybe I will make its final page a link to KARBYTES_CODE_CONTINUES and not a copy of it).</span>
+
+Secondly, Starbucks public Wi-Fi is closed (even though the router is still discoverable by devices) when that store is closed.
