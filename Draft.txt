@@ -1,3 +1,7 @@
+Update: A disconcerting thing I noticed is that image links on my primary website which I remember coloring according to the correct coloring conventions described in PUBLIC_DOMAIN were not the correct coloring conventions (and I have yet to find any GitHub commits saying that someone changed the colors of those links to the wrong colors).
+
+* * *
+
 Update: I wrote the following note a few hours ago. After I got back to my backyard, I finished the web page named EXPONENTIATION on my primary website.
 
 * * *
